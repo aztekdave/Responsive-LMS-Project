@@ -1,0 +1,89 @@
+body {
+    background: url(/images/background-blade.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: #2a3a40;
+    color: #e6e6e6;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>p {
+    background-color: #e6e6e6;
+    margin: 10px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 20px 30px;
+    width: 80%;
+}
+
+#crew {
+    display: flex;
+    justify-content: center;
+
+}
+
+#crew img {
+
+    width: 80%;
+}
+
+.card {
+    box-shadow: 0 0 40px -10px #000;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 0 3%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#phone {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #2a3a40;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-color: #78788c;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 12px;
+    color: #e6e6e6;
+    background-color: #2a3a40;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.button:hover {
+    background: 0;
+    color: #2a3a40;
+}
+
+.row {
+    margin-top: 20px;
+    justify-content: center;
+}

@@ -10,6 +10,30 @@ body {
   background: #2a3a40;
 }
 
+div.container.mt-4 {
+  padding-top: 90px;
+}
+
+h1 {
+  color: #2a3a40;
+}
+
+p.lead.text-center {
+  color: #2a3a40;
+}
+
+a.btn.btn-lg {
+  background-color: #2a3a40;
+  color: #e6e6e6;
+  border-color: #78788c;
+  border-width: 2px;
+}
+
+a.btn.btn-lg:hover {
+  background: none;
+  color: #2a3a40;
+}
+
 footer {
   background-color: #2a3a40;
   color: #e6e6e6;
